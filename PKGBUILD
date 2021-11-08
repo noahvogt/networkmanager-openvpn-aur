@@ -15,7 +15,7 @@ _commit=ac02405a34427c4f9e2392914af1a076e1c8744e  # tags/1.8.16^0
 source=("git+https://gitlab.gnome.org/GNOME/NetworkManager-openvpn.git#commit=$_commit"
         "xdg-basedir.patch")
 sha256sums=('SKIP'
-            'e83a9978f4918a2ceba0cb5f3d8a92c0b63b1a9c0ec6a3c7146e1ba4d482b67f')
+            '25d1e22354f2ce30871654fa3bfebfe19dfe82432f0c4998ccd62b0c05727cba')
 
 pkgver() {
   cd NetworkManager-openvpn
